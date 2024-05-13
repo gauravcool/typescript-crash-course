@@ -47,3 +47,19 @@ function log(message) {
     console.log(message);
 }
 log('true');
+const user1 = {
+    id: 3,
+    name: 'Luke'
+};
+const add = (x, y) => x + y;
+const subtract = (x, y) => x - y;
+// Classes
+class Person {
+    constructor(id, name) {
+        this.id = id;
+        this.name = name;
+    }
+}
+const brad = new Person(1, 'Brad');
+const pitt = new Person(2, 'Pitt');
+console.log(brad, pitt);
